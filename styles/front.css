@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #DDD;
+    font-family: VGA, Courier, "Droid Sans Mono", "Courier New", monospace;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    position: absolute;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+}
+form {
+    min-width: 150px;
+}
+input {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    min-height: 35px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: #FFF;
+    font-size: 110%;
+    font-family: VGA, Courier, "Droid Sans Mono", "Courier New", monospace;
+}
+input[type=submit] {
+    text-transform: uppercase;
+    border: 0px;
+}
